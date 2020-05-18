@@ -1,4 +1,4 @@
-#include "Population.h"
+#include "../include/Population.h"
 
 const Chromosome CHROMOSOME_NOT_FOUND;
 
