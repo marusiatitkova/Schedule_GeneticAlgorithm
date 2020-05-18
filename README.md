@@ -5,7 +5,16 @@ Generate schedule with genetic algorithm in C++
 The project can be built from IDE (ex. CLion) or using cmake file
 
 # Input
-The input information should be in the following form. 
+The parameters for algorithms are
+
+``````````````
+const double mutationRate = 0.02;
+const int populationSize = 50;
+const int MAX_ITERATIONS = 5000000;
+``````````````
+
+The input information should be in the following form.
+
 It includes:
 - name of courses
 - days of type Day
@@ -64,4 +73,12 @@ std::map<Day, SchedulePerClassNumber> schedule;
 ```````````````
 
 # Output
-![image]("/resource/monday.jpg")
+This result was reached on the 637 iteration
+
+![](resource/monday.jpg)
+![](resource/tuesday.jpg)
+![](resource/wednesday.jpg)
+![](resource/thursday.jpg)
+![](resource/friday.jpg)
+
+
