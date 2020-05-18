@@ -4,7 +4,7 @@ Generate schedule with genetic algorithm in C++
 # Prerequisites
 The project can be built from IDE (ex. CLion) or using cmake file
 
-#Input
+# Input
 The input information should be in the following form. 
 It includes:
 - name of courses
@@ -63,5 +63,5 @@ typedef std::map<ClassTime, std::vector<Class>> SchedulePerClassNumber;
 std::map<Day, SchedulePerClassNumber> schedule;
 ```````````````
 
-#Output
-![alt text]("monday.jpg")
+# Output
+![image]("/resource/monday.jpg")
